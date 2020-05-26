@@ -24,7 +24,7 @@ if you are a linux then u can do the following steps to set everyting automatica
          
  step 1 : open terminal and type 
  
-          sudo git clone https://github.com/altaf7740/fileAnalyzer.git && cd fileAnalyzer && sudo  ./install
+          sudo git clone https://github.com/altaf7740/fileAnalyzer.git && cd fileAnalyzer && sudo bash ./install
 
 
 
