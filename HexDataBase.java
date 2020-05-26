@@ -852,8 +852,8 @@ public class HexDataBase {
                                     fileExtention =          ".OUT, .APPIMAGE"     ; fileInformation = "gcc binary for linux"; flag = true; break;
                 case 	"41 4E 44 52 4F 49 44 21"               :  
                                     fileExtention =          ".IMG"     ; fileInformation = "flashable Image"; flag = true; break;
-                // case 	"00 00 00 18 66 74 79 70"               :  
-                //                     fileExtention =          "MP4"     ; fileInformation = "MP4 Video"; flag = true; break;
+                case 	"1A 45 DF A3"               :  
+                                    fileExtention =          ".MKV, .WEBM"     ; fileInformation = "Matroska stream file || WebM video file"; flag = true; break;
                 default :  fileExtention = "unknown"; fileInformation = "not recorgnised file"; 
             }
         }              
