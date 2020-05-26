@@ -1,0 +1,17 @@
+#!/bin/bash
+if [[ $EUID -ne 0 ]]; then
+  echo "You must be a root user" 2>&1
+  exit 1
+else
+  echo "generating byte code  and configuring some file for you"
+  javac -d . File2Hex.java HexDataBase.java Main.java
+  sudo mkdir /usr/bin/.FA/
+  sudo cp -r fileAnalyzer /usr/bin/.FA/
+  sudo echo "cd /usr/bin/.FA && java fileAnalyzer.Main" >> /usr/bin/file4nalyzer
+  sudo chmod +x /usr/bin/file4nalyzer
+  cd ..
+  rm -rf fileAnalyzer
+  clear
+  echo "all done"
+  echo "type 'file4nalyzer' in terminal"
+fi
