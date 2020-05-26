@@ -18,6 +18,13 @@ step1:- To generate the byte code,
 step2:- To the run the tool, type
 
           java fileAnalyzer.Main
+          
+          
+if you are a linux then u can do the following steps to set everyting automatically for you (optional)
+         
+ step 1 : open terminal and type 
+ 
+          sudo git clone https://github.com/altaf7740/fileAnalyzer.git && sudp cd fileAnalyzer && sudo  ./install
 
 
 
