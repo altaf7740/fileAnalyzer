@@ -9,7 +9,7 @@ HOW TO RUN :-
 
 step1:- To generate the byte code,
 
-          open terminal of cmd and type 
+          open terminal or cmd and type 
           
           javac -d . File2Hex.java HexDataBase.java Main.java
           
