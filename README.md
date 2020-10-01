@@ -1,4 +1,4 @@
-# fileAnalyzer
+# FileAnalyzer
 A GUI Forensic Tool
 
 File Analyzer is a forensic tool with Graphical User Interface, 
