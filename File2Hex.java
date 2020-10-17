@@ -1,5 +1,7 @@
 package fileAnalyzer;
-import java.io.*;
+import java.io.Inputstream;
+import java.io.FileInputStream; //why u are import all the classes of fileinputstream
+
 
 public class File2Hex
 {
